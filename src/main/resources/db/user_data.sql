@@ -1,0 +1,12 @@
+insert into user
+values('Miller', 'TRMILLR', 'SG');
+insert into user
+values('Tessa', 'TRTSSA', 'SG');
+insert into user
+values('Dosson', 'TRDSSN', 'HK');
+insert into user
+values('Ricky', 'TRRCKY', 'SG');
+insert into user
+values('Aaron', 'TRARON', 'SG');
+insert into user
+values('Bob', 'TRBOB', 'HK');
