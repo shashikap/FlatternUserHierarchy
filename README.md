@@ -8,7 +8,7 @@ For further reference, please consider the following sections:
    * Select the db as JDBC url as -jdbc:h2:mem:testdb
    * And add username password as per given in the application.yml 
    * Open and copy the the script inside the resources\sampledata\data.sql to insert the data, run it in the H2 console 
-* [Run the swagger UI using](http://localhost:8080/swagger-ui.html)
+* [Run the swagger UI](http://localhost:8080/swagger-ui.html)
 
 ### About the Implementation
 Created three Entity classes, two classes for to use existing hierarchy(user and teamhierarchy) and other
@@ -19,3 +19,5 @@ Entity relationship added to the teamhierarchy table where i can get the sub use
 Created POST /addUserAccess/{empId} api to add user access for the given user
 
 Create POST /addAllUserAccess api to add all users accesses in the organization
+
+Note : Please note this,LYB49MKK_dev is company gitlab user name Which took from my .gitConfig in local [user] name = LYB49MKK_dev
