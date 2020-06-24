@@ -8,7 +8,7 @@ For further reference, please consider the following sections:
    * Select the db as JDBC url as -jdbc:h2:mem:testdb
    * And add username password as per given in the application.yml 
    * Open and copy the the script inside the resources\sampledata\data.sql to insert the data, run it in the H2 console 
-* [Run the swagger UI](http://localhost:8080/swagger-ui.html)
+* [Run the swagger UI to use the apis](http://localhost:8080/swagger-ui.html)
 
 ### About the Implementation
 Created three Entity classes, two classes for to use existing hierarchy(user and teamhierarchy) and other
